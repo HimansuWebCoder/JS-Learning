@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM practice and learning with revision</title>
+  </head>
+  <body>
+    <button>click</button>
+    <script>
+      const btn = document.querySelector("button");
+
+      function myDoc() {
+        btn.style.color = "white";
+        btn.style.backgroundColor = "black";
+        btn.style.padding = "10px";
+        btn.style.borderRadius = "10px";
+        btn.style.width = "250px";
+        btn.style.textAlign = "center";
+        btn.style.fontSize = "2rem";
+        btn.style.border = "10px solid red";
+      }
+      btn.addEventListener("click", () => {
+        myDoc();
+      });
+      //   function myColor() {
+      //     const result = (btn.style.backgroundColor = "blue");
+      //     return result;
+      //   }
+
+      //   function myChoice() {
+      //     const color = (btn.style.border = "30px solid red");
+      //     return color;
+      //   }
+      //   function myPadding() {
+      //     const padding = (btn.style.padding = "50px");
+      //     return padding;
+      //   }
+
+      //   function textColor() {
+      //     const textcolor = (btn.style.color = "white");
+      //     return textcolor;
+      //     const width = (btn.style.width = "200px");
+      //     return width;
+
+      //   }
+      //   btn.addEventListener("click", () => {
+      //     // myColor();
+      //     // myChoice();
+      //     // myPadding();
+      //     textColor();
+      //   });
+    </script>
+  </body>
+</html>
