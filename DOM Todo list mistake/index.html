@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Event</title>
+  </head>
+  <body>
+    <input type="text" />
+    <button>button</button>
+    <div></div>
+    <script>
+      const inputUser = document.querySelector("input");
+      const btn = document.querySelector("button");
+      const div = document.querySelector("div");
+
+      btn.addEventListener("click", show);
+
+      function show() {
+        const para = document.createElement("p");
+        div.appendChild(para);
+        para.textContent = inputUser.value;
+        inputUser.focus();
+      }
+    </script>
+  </body>
+</html>
