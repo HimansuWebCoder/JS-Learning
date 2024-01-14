@@ -10,3 +10,7 @@ spread2; // { color: 'red' };
 
 const spread3 = { ...obj, str: "string", color: [1, 2, 3] };
 spread3; // {color: [1, 2, 3], str: "string"};
+
+const arr = { fruit: "mango"};
+const arr2 = {...arr};
+console.log(arr2); // 
