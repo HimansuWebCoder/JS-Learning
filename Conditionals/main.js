@@ -5,7 +5,24 @@
 /* run some other code instead */
 // }
 
+// 
+// let student = false;
+// let teacher;
+// if (student === true) {
+//    teacher = "student is present in school";
+// } else {
+//    teacher = "Student is absent from school";
+// }
+// teacher;
 //
+
+// const himansu = 10;
+// const Biscuit = 20;
+// const store = Biscuit;
+
+// if (store === Biscuit) {
+// 	console.log("Biscuit price is 20 rupees");
+// }
 
 // the following code is also perfectly legal code
 // if (condition) {
